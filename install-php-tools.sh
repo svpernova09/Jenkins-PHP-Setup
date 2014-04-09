@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get install php5-cli curl php-pear
+sudo apt-get install php5-cli curl php-pear
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 wget http://phpdox.de/releases/phpdox.phar
